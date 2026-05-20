@@ -12,15 +12,15 @@ export default {
           medium: '#828282',
           low: '#9A9FA8',
         },
-        primary: '#FDC435',
+        primary: '#FFFFFF',
         background: '#F9FAFF',
         line: '#25282B',
-        white: '#FFFFFF',
+        yellow: '#FDC435',
 
       },
       fontFamily: {
 
-        omfortaa: ["Comfortaa", "sans-serif"],
+        comfortaa: ["Comfortaa", "sans-serif"],
         raleway: ["Raleway", "sans-serif"],
         nunito: ["Nunito", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
