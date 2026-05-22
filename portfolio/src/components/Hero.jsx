@@ -1,10 +1,8 @@
-import heroImg from '../assets/hero.png';
-
 function Hero() {
     return (
         <section
             id="hero-left"
-            className="mx-auto w-full max-w-[1120px] px-6 pt-0 pb-12 md:pt-0 md:pb-16"
+            className="w-full pt-0 pb-12 md:pt-0 md:pb-16"
             aria-label="Présentation"
         >
             <div className="md:grid md:grid-cols-2 md:gap-8">
@@ -44,15 +42,7 @@ function Hero() {
                 </div>
 
                 {/* Right column : image (alignée en haut pour toucher la navbar) */}
-                <div className="flex items-start justify-center">
-                    <div className="w-full max-w-[560px] overflow-hidden rounded-sm">
-                        <img
-                            src={heroImg}
-                            alt="Photo de présentation"
-                            className="w-full h-[360px] md:h-[520px] object-cover object-center"
-                        />
-                    </div>
-                </div>
+                <div className="hidden md:block" />
             </div>
         </section>
     );

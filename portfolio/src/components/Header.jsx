@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 function Header({ activeNav = 'about' }) {
     return (
-        <header className="bg-primary">
+        <header className="bg-transparent">
             <Navbar active={activeNav} />
         </header>
     );
