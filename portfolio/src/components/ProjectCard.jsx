@@ -3,7 +3,7 @@ function ProjectCard({ title, description, imageUrl, imageRight = false, viewPro
         <div className="max-w-3xl mx-auto">
             <div className="overflow-hidden rounded-[16px] shadow-sm bg-white">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-0 items-stretch">
-                    {/* Content column */}
+
                     <div
                         className={`bg-white px-4 md:px-6 h-full flex items-center ${imageRight ? '' : 'md:order-last'}`}
                     >
@@ -27,7 +27,7 @@ function ProjectCard({ title, description, imageUrl, imageRight = false, viewPro
                         </div>
                     </div>
 
-                    {/* Image column */}
+
                     <div
                         className={`h-full overflow-hidden ${imageRight ? 'md:order-last' : ''}`}
                     >
