@@ -5,11 +5,11 @@ function Hero() {
             className="w-full pt-0 pb-12 md:pt-0 md:pb-16"
             aria-label="Présentation"
         >
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-                {/* Left column content box */}
-                <div className="flex items-start">
+            <div className="mt-12 grid grid-cols-12 gap-6 items-start">
+                {/* Left column content box (use 6/12 on md+ to make it less wide) */}
+                <div className="col-span-12 md:col-span-6">
                     <div className="w-full">
-                        <span className="text-xs uppercase tracking-widest text-text-low">
+                        <span className="uppercase tracking-widest text-text-low text-yellow">
                             UI/UX Designer
                         </span>
 
@@ -17,11 +17,11 @@ function Hero() {
                             Hello, my name is Aymeric Moreira
                         </h1>
 
-                        <p className="mt-6 text-poppins text-text-low">
+                        <p className="mr-48 mt-12 text-nunito md:text-lg text-text-low leading-relaxed">
                             Short text with details about you, what you do or your professional career. You can add more information on the about page.
                         </p>
 
-                        <div className="mt-6 flex gap-3">
+                        <div className="mt-12 flex gap-3">
                             <a
                                 href="#projects"
                                 className="inline-block px-4 py-2 border-2 border-line rounded text-text-high text-sm bg-yellow"
@@ -41,8 +41,8 @@ function Hero() {
                     </div>
                 </div>
 
-                {/* Right column : image (alignée en haut pour toucher la navbar) */}
-                <div className="hidden md:block" />
+                {/* Right column : image placeholder (image is global background) */}
+                <div className="hidden md:block col-span-12 md:col-span-6" />
             </div>
         </section>
     );

@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Hero from './components/Hero.jsx';
+import Projects from './components/Projects.jsx';
 import heroImg from './assets/hero.png';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
               <div className="max-w-screen-xl mx-auto px-6">
                   <Header activeNav="about" />
                   <Hero />
+                  <Projects />
               </div>
           </div>
       </main>
